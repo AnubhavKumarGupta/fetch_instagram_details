@@ -1,17 +1,25 @@
-# fetch_instagram_details
+# Instagram Profile Details Fetcher
 
-In this project, we are going to fetch the details of an Instagram account. 
-There is a predefined package in Python named instaloader, which is going to allow us to scrape through the Instagram account details of someone.
-Let’s get into it.
+## Introduction
+This simple Python script allows you to retrieve basic details from any public Instagram profile and download its profile picture. It utilizes the Instaloader package for easy Instagram data extraction.
 
-Code Explanation----
-Initially, I installed the instaloader package via cmd using the command "pip install instaloader."
-I used instaloader to import the relevant package.
-I created an instaloader object.
-Then I later obtained the user's username by utilising the input() function.
-Then, using the Instagram loader package's Profile.from_username() method, we obtained all of the Instagram user's information.
+## How to Use
+1. Make sure you have the Instaloader package installed. If not, you can install it using:
+   ```
+   pip install instaloader
+   ```
 
-Finally, all of the fetched results were presented on the console.
+2. Open the script in your preferred Python environment.
 
-**The profile picture is selected in the same folder where your Python file is saved, which is the same as your user name on your system, as follows:**
+3. Run the script.
 
+4. Enter the Instagram username when prompted.
+
+5. The script will then fetch and display basic details such as username, number of posts, followers, followees, and bio. Additionally, it will download the profile picture of the provided account.
+
+## Important Notes
+- This script only works for public Instagram profiles.
+- Respect the privacy and terms of service of Instagram while using this script.
+- Use the fetched data responsibly and considerate of others' privacy.
+
+Feel free to explore and enhance the script as needed. Happy coding!
